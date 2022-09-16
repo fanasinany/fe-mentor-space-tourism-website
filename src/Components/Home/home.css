@@ -1,0 +1,46 @@
+#home {
+    background-image: url("../Assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.home-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bloc-explore {
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 274px;
+    width: 274px;
+    font-size: 32px;
+    font-family: "Bellefair";
+    text-transform: uppercase;
+    color: #0B0D17;
+}
+
+.text-description{
+    max-width: 444px;
+}
+
+.text-description>h2 {
+    font-family: "Barlow Condensed";
+    letter-spacing: 4.75px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.text-description>h1 {
+    font-size: 150px;
+    font-family: "Bellefair";
+    font-weight: 400;
+    margin: 24px 0;
+}

@@ -12,12 +12,10 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/">
-            <Route index element={<Home />} />
-            <Route path="destination" element={<Destination />} />
-            <Route path="crew" element={<Crew />} />
-            <Route path="technology" element={<Technology />} />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/destination" element={<Destination />} />
+          <Route path="/crew" element={<Crew />} />
+          <Route path="/technology" element={<Technology />} />
         </Routes>
       </main>
     </BrowserRouter>
